@@ -4,7 +4,11 @@ export default function Protected({ children }) {
   const { isAuthenticated, isLoading, loginWithRedirect } = useAuth0();
 
   if (isLoading) {
-    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        Loading...
+      </div>
+    );
   }
 
   if (!isAuthenticated) {

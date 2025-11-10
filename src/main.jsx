@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       clientId={clientId}
       authorizationParams={{
         redirect_uri: window.location.origin,
-        audience,          // request API audience so we get an access_token
+        audience,          
       }}
-      cacheLocation="localstorage" // easier dev; keeps you logged in on refresh
+      cacheLocation="localstorage"  
     >
       <App />
     </Auth0Provider>
