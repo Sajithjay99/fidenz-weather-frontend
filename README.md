@@ -1,17 +1,9 @@
 # Weather App Frontend
 
 This is the frontend of the **Fidenz Full Stack Weather Application** built with **React + Vite + Tailwind CSS**.  
-It integrates with the backend API and Auth0 for secure authentication and displays real-time weather data.
 
 ---
 
-## Features
-- Auth0 login & logout (with MFA enabled)
-- Protected routes (user must log in)
-- Responsive design (mobile & desktop)
-- Secure API calls using Bearer Token
-
----
 
 ## Technologies
 - React (Vite)
