@@ -28,8 +28,8 @@ This is the frontend of the **Fidenz Full Stack Weather Application** built with
 3. **Create a `.env` file** in the project root:
    ```env
     VITE_API_BASE=http://localhost:3000
-    VITE_AUTH0_DOMAIN=dev-gk8papjykz6fewug.us.auth0.com
-    VITE_AUTH0_CLIENT_ID=K1xLVl8E4IvTW87s6vmXzsrAWR2RI0MR
+    VITE_AUTH0_DOMAIN= 
+    VITE_AUTH0_CLIENT_ID=
     VITE_AUTH0_AUDIENCE=https://weather.api
    ```
 
